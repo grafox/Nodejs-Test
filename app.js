@@ -1,4 +1,3 @@
- const logger = require('./logger');
 const path = require('path');
 
 const pathObj = path.parse(__filename);
@@ -12,10 +11,11 @@ console.log(pathObj);
 
  console.log(`Total Memory: ${totalMemory}`);
  console.log(`Free Memory: ${freeMemory}`);
+ 
 /////////////
  const fs = require('fs');
 
- files = fs.readdirSync('./', function(err,files){
+ files = fs.readdirSync('./', (err,files)=>{
      if (err) console.log('Eror',err);
      else console.log('resulat',files) 
  });
