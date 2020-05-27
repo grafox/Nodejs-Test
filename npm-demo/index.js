@@ -5,5 +5,3 @@ const _ = require('underscore');
 
 const resualt = _.contains([1,,2,3],2);
 console.log(resualt);
-
-
