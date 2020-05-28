@@ -4,5 +4,4 @@ const _ = require('underscore');
 // File or folder
 
 const resualt = _.contains([1,,2,3],2);
-console.log(resualt); 
-
+console.log(resualt);
